@@ -1,0 +1,35 @@
+body {
+  background: #c2aec5;
+  color: white;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.playlist {
+  text-align: left;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.playlist-item {
+  color: #444;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  padding: 1em;
+}
+
+.playlist-item.selected {
+  font-weight: bold;
+}
+
+.playlist-item:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+  text-align: left;
+  padding: 0;
+  margin-right: 20px;
+}

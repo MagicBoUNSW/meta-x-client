@@ -1,0 +1,220 @@
+.w-150 {
+  width: 150px !important;
+}
+.w-178 {
+  width: 178px !important;
+}
+.w-98 {
+  width: 98px !important;
+}
+.btn-round-active {
+  background: #25345C !important;
+  border-radius: 28px !important;
+  padding: 14px 32px !important;
+  text-transform: initial !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  /* font-family: Lato!important; */
+  font-style: normal!important;
+  font-weight: bold!important;
+}
+
+.btn-round-active-2 {
+  background: #eff2fe !important;
+  border-radius: 28px !important;
+  padding: 14px 32px !important;
+  text-transform: initial !important;
+  color: #25345C !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  font-style: normal!important;
+  font-weight: bold!important;
+}
+
+.margin-0 {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.auth-left-container {
+  border-radius: 0px 20px 20px 0px;
+  margin-right: -20px;
+  z-index: 999;
+}
+
+.padding-0{
+  padding-right:0 !important;
+  padding-left:0 !important;
+}
+
+.nav-div-active {
+  position: absolute;
+  top: 19px;
+  left: 0px;
+  border-right: 2px solid #121212;
+  height: 10px;
+  border-radius: 1px;
+}
+
+.avatar-container {
+  float: left;
+  width: 34px;
+  height: 34px;
+  z-index: 5;
+  overflow: hidden;
+  box-shadow: 0 10px 30px -12px rgb(0 0 0 / 42%), 0 4px 25px 0px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 0 0 / 20%);
+  transition: all 300ms linear;
+  margin-left: -20px;
+  margin-right: -20px;
+  border-radius: 50%;
+}
+
+.avatar-container img {
+  width: 100%;
+  border: 0;
+  vertical-align: middle;
+}
+
+.avatar-container .online-badge-dot {
+  z-index: 9999;
+  width: 8px;
+  min-width: 8px;
+  height: 8px;
+  background: #8AF1B9;
+  border-radius: 100%;
+  box-shadow: 0 0 0 1px #fff;
+  position: absolute;
+  bottom: 11px;
+  right: 13px;
+}
+
+.extraSidebar {
+  width: 260px;
+  background-color: white;
+  float: left;
+  height: 100vh;
+  border-right: 1px solid #25345c1f;
+}
+.extraContainer {
+  position: relative;
+  width: calc(100% - 260px);
+  float: left;
+}
+
+.extraSidebar, .extraContainer {
+    -webkit-box-sizing: border-box;  
+    -moz-box-sizing: border-box;  
+    box-sizing: border-box;   
+}
+
+.containerElementMap {
+  height: calc(100vh - 68px);
+}
+
+/* google map */
+.gm-style-iw > button {
+  display: none !important;
+}
+
+.infowindow .path  {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #8181A5;
+}
+
+.infowindow .device-name  {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1C1D21;
+}
+
+.infowindow .assets  {
+  font-size: 12px;
+  line-height: 18px;
+  color: #5E81F4;
+}
+
+.btn-feedback {
+  background: #FFFFFF!important;
+  border-radius: 8px !important;
+  padding: 14px 32px !important;
+  text-transform: initial !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  font-style: normal!important;
+  font-weight: 700!important;
+  color: #8181A5 !important;
+  border: 1px solid #ECECF2 !important;
+}
+
+.btn-36 {
+  width: 36px !important;
+  height: 36px !important;
+  min-width: 36px !important;
+  background: rgba(37, 52, 92, 0.1) !important;
+}
+
+.auth-label {
+  color: #25345C!important;
+  font-weight: 700!important;
+}
+
+.table-nauvus table {
+  border-collapse: separate !important;
+  border-spacing: 0px 10px;
+}
+
+.table-nauvus table thead {
+  background: #F5F5FA !important;
+  border-collapse: collapse !important;
+}
+
+.table-nauvus .table thead td {
+  border: none !important;
+}
+
+.table-nauvus th {
+  /* border: none !important; */
+  background: #F5F5FA !important;
+  border-bottom: 1px solid #dee2e6 !important;
+}
+
+
+.table-nauvus td {
+  /* background-color: #e5e5e5;
+  padding: 6px 10px; */
+  border-bottom: 1px solid #ECEEF0;
+  border-top: 1px solid #ECEEF0;
+}
+.table-nauvus td:first-child {
+  padding: 6px;
+  border-radius: 8px 0 0 8px;
+  border-left: 1px solid #ECEEF0;
+}
+.table-nauvus td:last-child {
+  border-radius: 0 5px 5px 0;
+  border-right: 1px solid #ECEEF0;
+}
+
+.btn-more-actions {
+  background: none !important;
+  color: #252631!important;
+  box-shadow: none!important;
+  font-size: 12px!important;
+  line-height: 14px!important;
+}
+
+.btn-tags {
+  border: 1px solid #ECEEF0 !important;
+  box-sizing: border-box !important;
+  border-radius: 12px !important;
+  background: white !important;
+  color: #C4C4C4 !important;
+  height: 38px !important;
+}
+
+#btn-search-on-map {
+  font-size: 18px !important;
+}
